@@ -1,0 +1,39 @@
+body {
+    background: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.tile .tile-paragraph {
+    font-size: 28px;
+}
+.tile-img {
+    display: block;
+    width: 200px;
+}
+
+p {
+    text-align: center;
+}
